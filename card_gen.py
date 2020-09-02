@@ -85,5 +85,5 @@ im = Image.open(str(idno) + '.bmp')
 til.paste(im, (600, 350))
 til.save(name + '.png')
 
-print(('\n\n\nYour ID Card Screated in file ' + name + '.png'))
+print(('\n\n\nYour ID Card created in file ' + name + '.png'))
 eval(raw_input('\n\nPress any key to close...'))
